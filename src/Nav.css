@@ -7,6 +7,7 @@
     z-index: 1;
 
     display: flex;
+    /* animations */
     transition-timing-function: ease-in;
     transition: all 0.5s;
 }
@@ -23,6 +24,8 @@
 }
 
 .nav__avatar {
+    border-width: 1px;
+    border-radius: 50%;
     position: fixed;
     right:20px;
     width: 30px;
